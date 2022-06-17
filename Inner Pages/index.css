@@ -1,0 +1,314 @@
+#line1{
+    position: relative;
+    top: 330px;
+}
+#Dive{
+    position: relative;
+    top: 320px;
+}
+#video1{
+    position: relative;
+    top: 320px;
+    background-image:linear-gradient(rgb(29, 28, 28), rgb(244, 247, 248));
+    border-radius: 10px;
+    margin:auto;
+
+
+}
+.Soviet{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    text-align: justify;
+}
+#container2{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(3, auto);
+gap: 20px;
+position: relative;
+top: 150px;
+margin-left: 20px;
+
+}
+#container2>div{
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#container2>div:hover{
+background-color: rgb(215, 249, 233);
+
+}
+
+#container2>div>img{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#container3{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    position: relative;
+    margin-left: 20px;
+    top: 150px;
+
+}
+#container3>div{
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#container3>div:hover{
+    background-color: rgb(215, 249, 233);
+    
+    }
+
+#container3>div>img{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#container4{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    position: relative;
+    margin-left: 20px;
+    top: 150px;
+
+}
+#container4>div{
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#container4>div:hover{
+    background-color: rgb(215, 249, 233);
+    
+    }
+#container4>div>img{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#container5{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    position: relative;
+    margin-left: 20px;
+    top: 150px;
+
+}
+#container5>div{
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#container5>div>img{
+    display: flex;
+    height: 110px;
+    width: auto;
+    border-radius: 300px;
+    margin: auto;
+    cursor: pointer;
+}
+#container5>div>img:hover{
+border: 3px solid blue;
+
+
+
+}
+.trailer{
+    position: relative;
+    top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.line2{
+position: relative;
+margin-left: 20px;
+top: 140px;
+
+}
+.role{
+    color: gray;
+    line-height: -0px;
+    font-size: 12px;
+    text-align: center;
+}
+.name{
+    text-align: center;
+}
+#container6{
+    position: relative;
+    top: 150px;
+    margin-left: 20px;
+    background-color: rgb(235, 232, 232);
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#container6>img{
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+#trial{
+    font-size: 10px;
+    line-height: 0px;
+}
+#about{
+    position: relative;
+    font-weight: bolder;
+    top: 170px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#container7{
+display: flex;
+position: relative;
+top: 170px;
+background-color: rgb(236, 232, 232);
+
+}
+#container7>div{
+height: auto;
+background-color: white;
+width: 30%;
+padding: 10px;
+border-radius: 10px;
+margin: 50px;
+box-sizing: border-box;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.for{
+    font-weight: bolder;
+}
+.drama{
+    color: gray;
+}
+.imagine{
+    color: gray;
+}
+#image3{
+    position: relative;
+    top: 170px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#navbar{
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+   
+}
+#navbar>img{
+    height: 50px;
+    cursor: pointer;
+    
+}
+#signin{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#image1{
+    width: 100%;
+    position: absolute;
+    height: 600px;
+    
+}
+#forallmankind{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 25%;
+}
+#new{
+    position: relative;
+    top: 10px;
+    font-weight: bolder;
+    color: white;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#play, #start, #add{
+    height: 40px;
+    width: 15%;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#play{
+    top: 250px;
+    left: 40px;
+}
+#start{
+top: 300px;
+left: -190px;
+}
+#add{
+    top: 350px;
+    left: -420px;
+
+}
+#imagine{
+    position: relative;
+    color: white;
+    left: 280px;
+    bottom: -250px;
+}
+#container1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 20px;
+    position: relative;
+    top: 338px;
+    margin-top: 30px;
+}
+#container1>div{
+    padding: 10px;
+   
+}
+.image2{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.episode{
+    color: rgb(135, 132, 132);
+    font-size: 12px;
+}
+#season{
+    position: relative;
+    bottom: -350px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 10px 5px 10px;
+}

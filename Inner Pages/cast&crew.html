@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#navbar{
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+   
+}
+#navbar>img{
+    height: 50px;
+    cursor: pointer;
+}
+#signin{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#container1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-image:linear-gradient(rgb(251, 208, 215),  rgb(164, 161, 161));
+}
+#container1>img{
+    border-radius: 100px;
+    height: 200px;
+}
+#name{
+    margin-left: -200px;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#joel{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.container2{
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 20px;
+
+}
+.container2>div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.container2>div>img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.shows{
+    font-weight: bolder;
+}
+#container3>img{
+width: 100%;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <img id="logo" src="https://cdn.vox-cdn.com/thumbor/8Ph42EZQ11MZfWTz763hgGmnixE=/0x0:1632x918/1200x800/filters:focal(686x329:946x589)/cdn.vox-cdn.com/uploads/chorus_image/image/69380654/Apple_introduces_apple_tv_plus_03252019_big.jpg.large_2x.0.jpg"/>
+        <button id="signin">sign In</button>
+    </div>
+    <div id="container1">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/ZoVPN4BV2AlUOUdI6kVdVA/550x550bb.webp"/>
+    <p id="name"><span id="joel">Joel Kinnaman </span><br>Charles Joel Nordstrom Kinnaman<br> (Swesish pronunciation : is a swedish - America actor and model who first gained recognition for<br> his roles in the Swedish film Easy Money and the Johan Falk crime series.<br> Kinnaman is known internationally for his television roles as Detective Stephen holder in AMCs.</p>
+    </div>
+    <p class="shows">Movies</p>
+    <div class="container2">
+        <div>
+            <img src="https://is3-ssl.mzstatic.com/image/thumb/Video115/v4/c7/66/0d/c7660d78-48fe-0717-6b18-ed16bb156cd9/pr_source.lsr/738x416.webp"/>
+        </div>
+        <div>
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/a3/dc/9c/a3dc9c92-2755-47e2-631f-00fb044d9b4e/1134823596-US-AMP_SF.lsr/738x416.webp"/>
+        </div>
+        <div>
+            <img src="https://is4-ssl.mzstatic.com/image/thumb/Video114/v4/ec/0d/3c/ec0d3c0d-c84a-6945-2e5a-eba7d56c7506/pr_source.png/738x416.webp"/>
+        </div>
+        <div>
+            <img src="https://is2-ssl.mzstatic.com/image/thumb/Video113/v4/ad/a0/86/ada0861b-b00d-b50e-6773-400e1a6aba6f/pr_source.lsr/738x416.webp"/>
+        </div>
+        <div>
+            <img src="https://is5-ssl.mzstatic.com/image/thumb/lSJ2Orcwzjz19-ezTAZQQw/738x416.webp"/>
+        </div>  
+    </div><br>
+    <hr>
+    <p class="shows">Shows</p>
+    <div class="container2">
+        <div>
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp"/>
+        </div>
+        <div>
+            <img src="https://is3-ssl.mzstatic.com/image/thumb/Video124/v4/9c/28/e0/9c28e044-6f07-88ba-0164-b559f66b4a7c/pr_source.lsr/738x416.webp"/>
+        </div>
+        <div>
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/6k030leClCq8xhmNpT8YXQ/738x416.webp"/>
+        </div>
+        <div>
+            <img src="https://is2-ssl.mzstatic.com/image/thumb/Video125/v4/94/a4/f7/94a4f7be-dde0-7de7-65d9-cf7bdaba9c40/pr_source.jpg/738x416.webp"/>
+        </div>
+        <div>
+            <img src="https://is2-ssl.mzstatic.com/image/thumb/Video124/v4/54/51/5d/54515d0e-bed7-e125-b69f-806af7360da1/pr_source.lsr/738x416.webp"/>
+        </div>
+    </div>
+<br>
+<div id="container3">
+    <img src="./Images/Screenshot (187).png"/>
+</div>
+
+
+    
+</body>
+</html>
+<script src="cast&crew.js"></script>

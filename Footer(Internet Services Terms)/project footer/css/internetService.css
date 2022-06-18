@@ -1,0 +1,252 @@
+body{
+    font-size: 14px;
+    /* width: 99.5vw; */
+    box-sizing: border-box;
+    background-color: white;
+    overflow-x: hidden;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    background-color: #424245;
+    color: white;
+    padding: 1rem;
+    /* width: 99.5vw; */
+}
+.header header{
+    font-size: 0.8rem;
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    }
+.header header button{
+        background-color: #0071e3;
+        color: white;
+        padding: 0.5rem 0.8rem;
+        border-radius: 0.5rem;
+        border: none;
+    }
+
+
+     /* ******************************************************** */
+    /* ################# Menu Bar ######################## */
+    /* ******************************************************** */
+
+
+    .menuBar
+    {
+        background-color: #333333;
+        font-size: 0.7rem;
+        color: #f5f5f7;
+    }
+    .menuBar nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 0.6rem 1rem;
+        width:85vw;
+        margin: auto;
+    }
+    .menuBar nav .menu{
+        color: white;
+    }
+
+     /* ******************************************************** */
+    /* ################# Legal (menu Bar) ######################## */
+    /* ******************************************************** */
+
+    .legal{
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        position: sticky;
+        top: 0rem;
+        background-color:white;
+        padding: 0.7rem 0.2rem;
+        border-bottom: 1.5px solid rgb(216, 213, 213);
+    }
+    .legal .left{
+        /* margin:1rem 3rem 1rem 0rem; */
+        font-size: 1.1rem;
+        font-weight: bolder;
+        width: 45%;
+    }
+    .legal .right{
+        color: rgb(64, 63, 63);
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        margin: auto;
+        font-size: 0.65rem;
+    }
+    .legal .right a:hover{
+      color: #1170d0;
+    }
+    .legal .right div{
+        color: #5e5e60;
+    }
+
+    /* ******************************************************** */
+    /* ################# Main Body ######################## */
+    /* ******************************************************** */
+
+.mainBody{
+   width: 70vw;
+    margin: 1rem auto;
+    /* background-color: red; */
+}
+.mainBody main .top{
+    width: 60vw;
+    margin: auto;
+    padding: 2rem 0rem;
+    
+}
+.mainBody main .top h1{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0rem 0rem 1.3rem 0rem;
+    font-weight: bold;
+}
+.mainBody main .top p{
+    width: 50vw;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    /* background-color: pink; */
+    margin: auto; 
+}
+.mainBody main .container{
+    width: 100%;
+    /* background-color: red; */
+    border-top: 1px solid rgb(216, 213, 213);
+    padding-top: 2rem;
+    display: flex;
+}
+.mainBody main .container .leftPannel,.mainBody main .container .rightPannel {
+    /* background-color: pink; */
+    margin: 0rem 0.5rem 1rem 0.5rem;
+    line-height: 1.3rem;
+    padding: 0.5rem 0rem;
+}
+
+.mainBody main .container .headPara{
+   font-weight: bold;
+   font-size: 1rem;
+   margin-bottom: 0.3rem;
+}
+.mainBody main .container .data{
+    color: #49494a;
+    font-size: 0.9rem;  
+}
+.mainBody main .container .mainLink{
+    padding: 1rem 0rem;
+    display: block;
+    font-size: 0.9rem;
+    color: #1170d0;
+}
+.mainBody main .container .mainLink:hover{
+    text-decoration: underline;
+}
+
+
+/* ******************************************************** */
+    /* ################# Styling Icon ######################## */
+    /* ******************************************************** */
+.menuBar .navigation .appleIcon{
+    font-size: 1rem;
+    margin-top: -0.5rem;
+}
+.menuBar .navigation .brief
+{
+    font-size: 1rem;
+    color: red;
+}
+span{
+    font-size: 1.2rem;
+}
+
+    /* ******************************************************** */
+    /* ################# Footer Part ######################## */
+    /* ******************************************************** */
+    .footer{
+        background-color:#f5f5f7;
+    }
+    footer{
+        width: 70vw;
+        margin: auto;
+    }
+    .footer .footerDirection{
+        margin-bottom: 1rem;
+        padding-top:0.5rem;
+        font-size: 0.7rem;
+        color: #59595a;
+        
+    }
+    .footer .footerDirection .angle{
+       margin: 0.3rem;
+        color: #49494a;
+        font-size: 0.9rem;
+    }
+    .footer .footerMain{
+        display: flex;
+    }
+    .footer .footerMain .footerHead{
+        font-weight: bold;
+        color: #3c3c3d;
+        font-size: 0.7rem;
+        /* border: 1px solid blue; */
+        margin: 0.4rem 0.5rem 0rem 0.5rem;
+    }
+    .footer .footerMain a:hover{
+        text-decoration: underline 1px solid gray;
+        
+    }
+    .footer .footerMain li{
+        margin: 0.3rem 0.5rem;
+        color: #5e5e60;
+        line-height: 1rem
+    }
+    .footer footer .bottom {
+        padding: 1rem 0.5rem;
+        color: #5e5e60;
+    }
+
+    .footer footer .bottom .bottomT
+    {
+        border-bottom: 1px solid rgb(183, 180, 180);
+        padding-bottom: 0.6rem;
+        /* color: #5e5e60; */
+    }
+    .footer footer .bottom .bottomT a{
+        color: #1170d0;
+    }
+    .footer footer .bottom .bottomT a:hover{
+        text-decoration: underline 1px solid #1170d0;
+    }
+    .footer footer .bottom .copyRight
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.6rem 0rem;
+        /* color: #5e5e60; */
+    }
+    .footer footer .bottom .copyRight .mid a{
+    /* background-color: red; */
+    color: #5e5e60;
+    padding : 0rem 0.3rem;
+    border-right: 1px solid gray;
+    }
+    footer .bottom .copyRight .mid #last{
+        border-right: none;
+        padding-right: 0rem;
+    }
+    footer .bottom .copyRight .mid a:hover{
+        text-decoration: underline 1px solid gray;
+        /* border-bottom: 0.5px solid #5e5e60;; */
+    }
+    .footer footer .bottom .copyRight .right a{
+        color: #5e5e60;
+        }

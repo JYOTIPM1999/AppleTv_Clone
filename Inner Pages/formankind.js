@@ -11,9 +11,8 @@ document.querySelector("#AppleTV").addEventListener("click", Applefun);
 function Applefun(){
 window.location.href = "AppleTv.html"
 }
-document.querySelector("#logo").addEventListener("click", Logofun);
+document.querySelector("#logo").addEventListener("click", Logofunct);
 
-function Logofun(){
-window.location.href = "index.html"
-
+function Logofunct(){
+    window.location.href = "/LandingPage/index.html";
 }

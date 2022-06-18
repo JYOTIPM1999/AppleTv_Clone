@@ -34,7 +34,18 @@ document.querySelector("#formankind").addEventListener("click", formankindfun);
 
 function formankindfun(){
 window.location.href = "/Inner Pages/formankind.html";
+}
 
+document.querySelector("#Internet").addEventListener("click", Internetfun);
 
+function Internetfun(){
+console.log("Aman");
+window.location.href = "/Termscondition/InternetService.html";
+
+}
+document.querySelector("#privacy").addEventListener("click", Privacyfun);
+
+function Privacyfun(){
+    window.location.href = "/Termscondition/privacy.html";
 
 }

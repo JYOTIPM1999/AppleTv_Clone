@@ -56,12 +56,16 @@ TERMS AND PRIVACY PAGE ...!
 
 
 THIS PROJECT IS MADE WITH THE HELP OF ALL MY TEAMMATES..
-AMAN KUMAR
-SNEHIL GUPTA
-PARATH SARATHI MANNA
-JYOTI
-ANJANI
-ROBIN ROY
+
+
+1) AMAN KUMAR
+2) SNEHIL GUPTA
+3) PARATH SARATHI MANNA
+4) JYOTI
+5) ANJANI
+6) ROBIN ROY
+
+
 
 Thanks to all my teammates and also to MASAI, This could not be possible without their co-operation.#Masai School
 

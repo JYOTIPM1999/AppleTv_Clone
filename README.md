@@ -1,7 +1,12 @@
 # AppleTv_Clone
-![image](https://user-images.githubusercontent.com/101914524/174465367-798f7821-f20e-448f-8dff-a4cb6d7b671f.png)
 LANDING PAGE 
+
+![image](https://user-images.githubusercontent.com/101914524/174465367-798f7821-f20e-448f-8dff-a4cb6d7b671f.png)
+
+
 IT IS THE APPLE TV CLONE OF THE WEBSITE...!
+
+
 ![image](https://user-images.githubusercontent.com/101914524/174465411-bffb31e9-32c1-472b-a049-562181b972c3.png)
 ![image](https://user-images.githubusercontent.com/101914524/174465417-088b8fd5-0796-4e84-97e6-30260b9fb48a.png)
 ![image](https://user-images.githubusercontent.com/101914524/174465420-df768407-c45a-4ed7-ba13-7dd82c748450.png)
@@ -12,6 +17,8 @@ IT IS THE APPLE TV CLONE OF THE WEBSITE...!
 ![image](https://user-images.githubusercontent.com/101914524/174465450-f0a2fd3d-95f1-4438-a256-7597bfe006c4.png)
 ![image](https://user-images.githubusercontent.com/101914524/174465454-de0cdc12-b239-48b6-a3b7-863cca8ee011.png)
 FOR ALL MAN KIND PAGE ....!
+
+
 ![image](https://user-images.githubusercontent.com/101914524/174465474-ab486280-5ae5-483c-87b9-d98e53211bbb.png)
 ![image](https://user-images.githubusercontent.com/101914524/174465477-dc105c3c-4bb8-4185-95dd-822f57bc68e6.png)
 ![image](https://user-images.githubusercontent.com/101914524/174465481-737de974-7760-4fc9-82f2-5dabada372c9.png)

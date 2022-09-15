@@ -1,6 +1,8 @@
 # AppleTv_Clone
 LANDING PAGE 
 
+Go live : https://dazzling-paprenjak-91b876.netlify.app/
+
 ![image](https://user-images.githubusercontent.com/101914524/174465367-798f7821-f20e-448f-8dff-a4cb6d7b671f.png)
 
 
